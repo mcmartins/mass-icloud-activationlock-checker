@@ -1,0 +1,34 @@
+{
+  "name": "mass-icloud-activationlock-checker",
+  "description": "Mass imei checker for iCloud",
+  "author": "Manuel Martins <manuelmachadomartins@gmail.com>",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "engine": "node >= 6.0.0",
+  "main": "./index",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mcmartins/mass-icloud-activationlock-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mcmartins/mass-icloud-activationlock-checker/issues"
+  },
+  "keywords": [
+    "iCloud",
+    "imei",
+    "activation",
+    "activationlock",
+    "lock"
+  ],
+  "dependencies": {
+    "node-base64-image": "0.1.x",
+    "request": "2.67.x",
+    "shortid": "^2.2.6"
+  },
+  "devDependencies": {
+    "mocha": "2.4.x"
+  }
+}
