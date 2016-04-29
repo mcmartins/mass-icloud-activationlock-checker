@@ -24,11 +24,15 @@
     "lock"
   ],
   "dependencies": {
-    "node-base64-image": "0.1.x",
-    "request": "2.67.x",
-    "shortid": "^2.2.6"
+    "async": "^2.0.0-rc.3",
+    "body-parser": "^1.15.0",
+    "express": "4.x.x",
+    "node-base64-image": "0.x.x",
+    "request": "2.x.x",
+    "shortid": "2.x.x",
+    "spooky": "0.x.x"
   },
   "devDependencies": {
-    "mocha": "2.4.x"
+    "mocha": "2.x.x"
   }
 }
